@@ -3,6 +3,6 @@
     "shutdownAction": "none",
     "workspaceFolder": "/",
     "dockerFile": "./navio2-buster-devcontainer.dockerfile",
-    "postCreateCommand": "sh ./Tools/environment_install/install-prereqs-ubuntu.sh",
+    //"postStartCommand": "bash /workspaces/ardupilot/Tools/environment_install/install-prereqs-ubuntu.sh",
     "containerUser": "vscode"
   }
